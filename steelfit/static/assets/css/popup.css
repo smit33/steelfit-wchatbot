@@ -1,28 +1,29 @@
 /* Style for the floating button */
-		.floating-button {
-			position: fixed;
-			bottom: 20px;
-			right: 20px;
-			z-index: 999;
-			background-color: #3498db;
-			color: white;
-			padding: 10px 20px;
-			border-radius: 5px;
-			cursor: pointer;
-			box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-		}
+.floating-button {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 999;
+	background-color: #3498db;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
 
-		/* Style for the floating window */
-		.floating-window {
-			position: fixed;
-			bottom: 80px;
-			right: 20px;
-			z-index: 998;
-			width: 400px;
-			height: 300px;
-			border: 1px solid black;
-			background-color: white;
-			overflow-y: auto;
-			display: none; /* Hide the window by default */
-			box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-		}
+/* Style for the floating window */
+.floating-window {
+	position: fixed;
+	bottom: 80px;
+	right: 20px;
+	z-index: 998;
+	width: 400px;
+	height: 450px;
+	border: 1px solid black;
+	background-color: white;
+	overflow-y: hidden;
+	display: none;
+	/* Hide the window by default */
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}

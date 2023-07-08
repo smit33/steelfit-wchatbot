@@ -14,75 +14,85 @@
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/open-iconic-bootstrap.min.css' %}">
-	<link rel="stylesheet"type="text/css" href="{% static 'assets/css/animate.css' %}">
-	<link rel="stylesheet"type="text/css" href="{% static 'assets/css/owl.carousel.min.css' %}">
-	<link rel="stylesheet"type="text/css" href="{% static 'assets/css/owl.theme.default.min.css' %}">
-	<link rel="stylesheet"type="text/css" href="{% static 'assets/css/magnific-popup.css' %}">
-	<link rel="stylesheet"type="text/css" href="{% static 'assets/css/aos.css' %}">
-	<link rel="stylesheet"type="text/css" href="{% static 'assets/css/jquery.exzoom.css' %}">
-	<link rel="stylesheet"type="text/css" href="{% static 'assets/css/ionicons.min.css' %}">
-	<link rel="stylesheet"type="text/css" href="{% static 'assets/css/bootstrap-datepicker.css' %}">
-	<link rel="stylesheet"type="text/css" href="{% static 'assets/css/jquery.timepicker.css' %}">
-	<link rel="stylesheet"type="text/css" href="{% static 'assets/css/flaticon.css' %}">
-	<link rel="stylesheet"type="text/css" href="{% static 'assets/css/icomoon.css' %}">
-	<link rel="stylesheet"type="text/css" href="{% static 'assets/css/style.css' %}">
-    <link rel="stylesheet"type="text/css" href="{% static 'assets/css/popup.css' %}">
-        <style>
-         #home{
-            padding-bottom: 20px;
-            height: 800px;
-            width: 1600px;
-            background-image: url(/static/images/1-12.jpg);
-            background-size: cover;
-            background-position: center;
-        }
-    </style>
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/animate.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/owl.carousel.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/owl.theme.default.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/magnific-popup.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/aos.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/jquery.exzoom.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/ionicons.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/bootstrap-datepicker.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/jquery.timepicker.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/flaticon.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/icomoon.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/style.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/popup.css' %}">
+	<style>
+		#home {
+			padding-bottom: 20px;
+			height: 800px;
+			width: 1600px;
+			background-image: url(/static/images/1-12.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+	</style>
 </head>
 
 
 <body>
-<div>
-<section>
-	<nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light position-absolute w-100" id="ftco-navbar top">
-		<div class="container">
-			<a href="{% url 'index' %}" class="navbar-brand text-light"><img src="{% static 'images/logo.png' %}" style="width: 300px"></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
-				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="oi oi-menu"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="ftco-nav">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item cta"><a href="{% url 'index' %}" class="nav-link text-light">Home</a></li>
-					<li class="nav-item"><a href="{% url 'about' %}" class="nav-link text-light">About</a></li>
-					<li class="nav-item"><a href="{% url 'gallery' %}" class="nav-link text-light">Gallery</a></li>
-					<li class="nav-item"><a href="{% url 'product' %}" class="nav-link text-light">Products</a></li>
-					<li class="nav-item"><a href="{% url 'infrastructure' %}" class="nav-link text-light">Infrastructure</a></li>
-					<li class="nav-item"><a href="{% url 'certificates' %}" class="nav-link text-light">Quality</a></li>
-					<li class="nav-item"><a href="{% url 'clients' %}" class="nav-link text-light">Our Clients</a></li>
-					<li class="nav-item"><a href="{% url 'contact' %}" class="nav-link text-light">Contact</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+	<div>
+		<section>
+			<nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light position-absolute w-100"
+				id="ftco-navbar top">
+				<div class="container">
+					<a href="{% url 'index' %}" class="navbar-brand text-light"><img
+							src="{% static 'images/logo.png' %}" style="width: 300px"></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+						aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="oi oi-menu"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="ftco-nav">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item cta"><a href="{% url 'index' %}" class="nav-link text-light">Home</a>
+							</li>
+							<li class="nav-item"><a href="{% url 'about' %}" class="nav-link text-light">About</a></li>
+							<li class="nav-item"><a href="{% url 'gallery' %}" class="nav-link text-light">Gallery</a>
+							</li>
+							<li class="nav-item"><a href="{% url 'product' %}" class="nav-link text-light">Products</a>
+							</li>
+							<li class="nav-item"><a href="{% url 'infrastructure' %}"
+									class="nav-link text-light">Infrastructure</a></li>
+							<li class="nav-item"><a href="{% url 'certificates' %}"
+									class="nav-link text-light">Quality</a></li>
+							<li class="nav-item"><a href="{% url 'clients' %}" class="nav-link text-light">Our
+									Clients</a></li>
+							<li class="nav-item"><a href="{% url 'contact' %}" class="nav-link text-light">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
 
 
-	<!-- END nav -->
-	<div class="hero">
-        <div id="home" class="video-hero" style="padding-bottom:20px height: 800px; background-image: url(/static/images/slider2.jpg); background-size:cover; background-position: center center;">
-            <a class="player"
-              data-property="{videoURL:'https://www.youtube.com/watch?v=71B4Ax3o1wc',containment:'#home', showControls:false,useOnMobile: false, autoPlay:true, loop:true, mute:true, realfullscreen: true, startAt:97,stopAt:106,  opacity:1, quality:'default'}"></a>
-            <div class="container">
-              <div class="row justify-content-start d-flex align-items-end height-text ">
-                <div class="col-md-8">
-                  <div class="text">
-                      <h1><span class="w">W</span>hat makes perfect ends? </h1>
-                      <br>
-                    <h2 style="color: #FFFFFF">Experience</h2>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+			<!-- END nav -->
+			<div class="hero">
+				<div id="home" class="video-hero"
+					style="padding-bottom:20px height: 800px; background-image: url(/static/images/slider2.jpg); background-size:cover; background-position: center center;">
+					<a class="player"
+						data-property="{videoURL:'https://www.youtube.com/watch?v=71B4Ax3o1wc',containment:'#home', showControls:false,useOnMobile: false, autoPlay:true, loop:true, mute:true, realfullscreen: true, startAt:97,stopAt:106,  opacity:1, quality:'default'}"></a>
+					<div class="container">
+						<div class="row justify-content-start d-flex align-items-end height-text ">
+							<div class="col-md-8">
+								<div class="text">
+									<h1><span class="w">W</span>hat makes perfect ends? </h1>
+									<br>
+									<h2 style="color: #FFFFFF">Experience</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
 		</section>
 	</div>
@@ -168,7 +178,7 @@
 	</section>
 	<!-- END PERSPECTIVE -->
 
-<!-- Product  -->
+	<!-- Product  -->
 	<section>
 		<div class="text-center">
 			<h2 class="font-weight-bold"> <a href="{% url 'index' %}">Our Services </a></h2>
@@ -176,38 +186,46 @@
 				your expectations.</p>
 		</div>
 		<div class="d-flex container-fluid justify-content-center align-items-center flex-wrap">
-						<div class="p-2">
+			<div class="p-2">
 				<div class="card card-hover" style="width: 18rem; height: 25rem; border-radius: 10px 10px 0px 0px;">
 					<img src="{% static 'images/12.jpg' %}" class="card-img-top my-auto" alt="...">
 					<div class="overlay"></div>
 					<div class="text-center my-auto card-content">
-						<a href="{% url 'dishend' %}"><button class="btn btn-md bg-dark w-50 mx-auto text-light">View Details</button></a>
+						<a href="{% url 'dishend' %}"><button class="btn btn-md bg-dark w-50 mx-auto text-light">View
+								Details</button></a>
 					</div>
 				</div>
-				<h4 class="bg-dark text-center text-light m-0 py-2" style="border-radius: 0px 0px 10px 10px;">Dish-end</h4>
+				<h4 class="bg-dark text-center text-light m-0 py-2" style="border-radius: 0px 0px 10px 10px;">Dish-end
+				</h4>
 			</div>
 			<div class="p-2">
 				<div class="card card-hover" style="width: 18rem; height: 25rem; border-radius: 10px 10px 0px 0px;">
 					<img src="{% static 'images/tori-cones.jpg' %}" class="card-img-top my-auto" alt="...">
 					<div class="overlay"></div>
 					<div class="text-center my-auto card-content">
-						<a href="{% url 'cones' %}"><button class="btn btn-md bg-dark w-50 mx-auto text-light">View Details</button></a>
+						<a href="{% url 'cones' %}"><button class="btn btn-md bg-dark w-50 mx-auto text-light">View
+								Details</button></a>
 					</div>
 				</div>
-				<h4 class="bg-dark text-center text-light m-0 py-2" style="border-radius: 0px 0px 10px 10px;">Cones / Tori-Cones</h4>
+				<h4 class="bg-dark text-center text-light m-0 py-2" style="border-radius: 0px 0px 10px 10px;">Cones /
+					Tori-Cones</h4>
 			</div>
 			<div class="p-2">
 				<div class="card card-hover" style="width: 18rem; height: 25rem; border-radius: 10px 10px 0px 0px;">
 					<img src="{% static 'images/gallery22.jpg' %}" class="card-img-top my-auto" alt="...">
 					<div class="overlay"></div>
 					<div class="text-center my-auto card-content">
-						<a href="{% url 'pipecap' %}"> <button class="btn btn-md bg-dark w-50 mx-auto text-light">View Details</button></a>
+						<a href="{% url 'pipecap' %}"> <button class="btn btn-md bg-dark w-50 mx-auto text-light">View
+								Details</button></a>
 					</div>
 				</div>
-				<h4 class="bg-dark text-center text-light m-0 py-2" style="border-radius: 0px 0px 10px 10px;">Pipe-caps</h4>
+				<h4 class="bg-dark text-center text-light m-0 py-2" style="border-radius: 0px 0px 10px 10px;">Pipe-caps
+				</h4>
 			</div>
-			<div class="p-2 col-12 text-center" >
-				<a href="{% url 'product' %}"><button onclick="location.href = 'product.html'; id ="viewmore" class="btn btn-lg bg-dark col-6 col-md-2  mx-auto text-light"  style="border-radius:10px;">View More</button></a>
+			<div class="p-2 col-12 text-center">
+				<a href="{% url 'product' %}"><button onclick="location.href = 'product.html'; id =" viewmore"
+						class="btn btn-lg bg-dark col-6 col-md-2  mx-auto text-light" style="border-radius:10px;">View
+						More</button></a>
 			</div>
 		</div>
 
@@ -262,7 +280,8 @@
 					</a>
 				</div>
 				<div class="col-sm-12 col-md ftco-animate">
-					<a href="{% static 'images/12.jpg' %}" class="insta-img image-popup" style="background-image: url(/static/images/12.jpg);">
+					<a href="{% static 'images/12.jpg' %}" class="insta-img image-popup"
+						style="background-image: url(/static/images/12.jpg);">
 						<div class="icon d-flex justify-content-center">
 							<span class="icon-zoom_in align-self-center"></span>
 						</div>
@@ -327,35 +346,34 @@
 				stroke="#1fb6d1" />
 		</svg></div>
 
-		<script src="{% static 'assets/js/jquery.min.js' %}"></script>
-		<script src="{% static 'assets/js/jquery-migrate-3.0.1.min.js' %}"></script>
-		<script src="{% static 'assets/js/popper.min.js' %}"></script>
-		<script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
-		<script src="{% static 'assets/js/jquery.easing.1.3.js' %}"></script>
-		<script src="{% static 'assets/js/jquery.waypoints.min.js' %}"></script>
-		<script src="{% static 'assets/js/jquery.stellar.min.js' %}"></script>
-		<script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
-		<script src="{% static 'assets/js/jquery.magnific-popup.min.js' %}"></script>
-		<script src="{% static 'assets/js/aos.js' %}"></script>
-		<script src="{% static 'assets/js/jquery.animateNumber.min.js' %}"></script>
-		<script src="{% static 'assets/js/jquery.mb.YTPlayer.min.js' %}"></script>
-		<script src="{% static 'assets/js/jquery.exzoom.js' %}"></script>
-		<script src="{% static 'assets/js/bootstrap-datepicker.js' %}"></script>
-		<!-- // <script src="{% static 'assets/js/jquery.timepicker.min.js' %}"></script> -->
-		<!-- <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js' %}"></script> -->
-		<script src="{% static 'assets/js/parallax.min.js' %}"></script>
-		<script src="{% static 'assets/js/scrollax.min.js' %}"></script>
-		<!-- <script
+	<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+	<script src="{% static 'assets/js/jquery-migrate-3.0.1.min.js' %}"></script>
+	<script src="{% static 'assets/js/popper.min.js' %}"></script>
+	<script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'assets/js/jquery.easing.1.3.js' %}"></script>
+	<script src="{% static 'assets/js/jquery.waypoints.min.js' %}"></script>
+	<script src="{% static 'assets/js/jquery.stellar.min.js' %}"></script>
+	<script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
+	<script src="{% static 'assets/js/jquery.magnific-popup.min.js' %}"></script>
+	<script src="{% static 'assets/js/aos.js' %}"></script>
+	<script src="{% static 'assets/js/jquery.animateNumber.min.js' %}"></script>
+	<script src="{% static 'assets/js/jquery.mb.YTPlayer.min.js' %}"></script>
+	<script src="{% static 'assets/js/jquery.exzoom.js' %}"></script>
+	<script src="{% static 'assets/js/bootstrap-datepicker.js' %}"></script>
+	<!-- // <script src="{% static 'assets/js/jquery.timepicker.min.js' %}"></script> -->
+	<!-- <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js' %}"></script> -->
+	<script src="{% static 'assets/js/parallax.min.js' %}"></script>
+	<script src="{% static 'assets/js/scrollax.min.js' %}"></script>
+	<!-- <script
 			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 		<script src="{% static 'assets/js/google-map.js' %}"></script> -->
-		<script src="{% static 'assets/js/main.js' %}"></script>
-<script src="{% static 'assets/js/popup.js' %}"></script>
+	<script src="{% static 'assets/js/main.js' %}"></script>
+	<script src="{% static 'assets/js/popup.js' %}"></script>
 	<div class="floating-button" onclick="toggleFloatingWindow()">Chat with Bot</div>
 
 	<!-- The floating window -->
 	<div class="floating-window" id="floating-window">
-				<iframe src="{% url 'chatbot' %}" style="width:600px; height:1200px;"></iframe>
-</iframe>
+		<iframe src="{% url 'chatbot' %}" style="width: 100%;height: 100%;overflow: hidden;"></iframe>
 	</div>
 </body>
 
