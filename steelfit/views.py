@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.views.decorators.clickjacking import xframe_options_sameorigin
 
 # Create your views here.
 def index(request):
@@ -46,8 +47,13 @@ def swage(request):
 def bellow(request):
     return render(request, "bellow.html")
 
+@xframe_options_sameorigin
 def chatbot(request):
     return render(request, "chatbot.html")
+
+
+
+
 def pop(request):
     return render(request, "popup.html")
 from django.http import JsonResponse
@@ -127,7 +133,7 @@ def note_info_and_send_mail(all_vars):
     out = "\nName: " + all_vars["user_name"] + "\nCompany Name: " + all_vars["user_company"] + "\nPhone Number: " + all_vars["user_phone"] + "\nProduct Wanted: " + all_vars["user_product"] + "\nSpecifications of Product: " + all_vars["user_specification"]   
     if 'yes' in all_vars["user_input"]:
         all_vars = reset_vars(all_vars)
-        send_email("New Enquiry", out, "dwijmakvana44@gmail.com", "steel.fit123@gmail.com", "bndknnudyeshzodt")
+        send_email("New Enquiry", out, "steelfitengg@gmail.com", "steel.fit123@gmail.com", "bndknnudyeshzodt")
         all_vars['response'] = ["Everything Noted and email was sent to owner describing your requirements","Please Enter hi to restart the conversation"]
     elif 'no' in all_vars["user_input"]:
         all_vars = reset_vars(all_vars)
