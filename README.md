@@ -110,7 +110,7 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Acknowledgments
 
-- This project was developed using the Django framework (version X.X.X).
+- This project was developed using the Django framework.
 - The front-end design was implemented using HTML, CSS, and JavaScript.
 - The chatbot logic was written in JavaScript.
 - Email functionality was achieved using Python scripts and an appropriate email backend.
