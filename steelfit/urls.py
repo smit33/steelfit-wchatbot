@@ -21,3 +21,6 @@ urlpatterns = [
     path('chatbot-response/', chatbot_response, name='chatbot_response'),
     path('popup/', pop, name='pop'),
 ]
+
+
+DEBUG = TEMPLATE_DEBUG = True
